@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InnoSphear</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+  <nav class="bg-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <a href="#" class="text-2xl font-bold text-blue-600">InnoSphear</a>
+        </div>
+        <!-- Links (hidden on mobile) -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+          <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+          <a href="#services" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+          <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+        </div>
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+          <button id="menu-btn" class="text-gray-700 focus:outline-none focus:text-blue-600">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2">
+      <a href="#" class="block text-gray-700 hover:text-blue-600 transition">Home</a>
+      <a href="#about" class="block text-gray-700 hover:text-blue-600 transition">About</a>
+      <a href="#services" class="block text-gray-700 hover:text-blue-600 transition">Services</a>
+      <a href="#contact" class="block text-gray-700 hover:text-blue-600 transition">Contact</a>
+    </div>
+  </nav>
+
+  <section class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      
+      <!-- Text Content -->
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+          Your Digital Partner for Smart IT Solutions
+        </h1>
+        <p class="mt-6 text-gray-700 text-lg">
+          InnoSphear specializes in web development, ERP & CRM systems, app development, digital marketing, and custom IT solutions tailored to your business needs.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4_25x8avuAftPSyarfmk7Z_C14pG77RrsnTeboM_45kd2sg/viewform?usp=dialog" class="bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition duration-300">
+            Get in Touch
+          </a>
+          <a href="#services" class="text-blue-600 border border-blue-600 px-6 py-3 rounded-xl hover:bg-blue-50 transition duration-300">
+            Our Services
+          </a>
+        </div>
+      </div>
+  
+      <!-- Image Gallery -->
+      <div class="flex flex-col space-y-6">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/019/586/169/small/online-documentation-database-and-process-document-electronic-automation-platform-it-staff-working-with-document-management-system-dms-corporate-business-technology-cognition-on-modern-management-photo.jpg"
+             alt="IT Automation" class="rounded-2xl shadow-lg w-full object-cover h-64 md:h-80">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/010/891/097/small/group-of-it-consultant-working-together-and-management-big-data-and-analyze-financial-document-of-company-photo.jpg"
+             alt="IT Consultants" class="rounded-2xl shadow-lg w-full object-cover h-64 md:h-80">
+      </div>
+      
+    </div>
+  </section>
+  
+  <!-- Service Section -->
+ <!-- Service Section -->
+<section id="services" class="bg-gray-100 py-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">
+      Our Services
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      
+      <!-- CRM Development -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://media.istockphoto.com/id/1259086543/photo/crm-customer-relationship-management-for-business-sales-marketing-system-concept.jpg?s=612x612&w=0&k=20&c=bUpNVD1iOkCFk7mgCmL33upBEKy5yJoWUCJRwMnbPuk=" 
+             alt="CRM Development" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">CRM Development</h3>
+          <p class="text-gray-600">We build intelligent CRM systems to help you manage customer relationships and drive business growth.</p>
+        </div>
+      </div>
+
+      <!-- ERP Development -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://www.cio.com/wp-content/uploads/2025/03/272362-0-27498000-1741330535-enterprise_resource_planning-ERP.jpg?quality=50&strip=all" 
+             alt="ERP Development" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">ERP Development</h3>
+          <p class="text-gray-600">Custom ERP solutions to streamline and integrate your business processes for better efficiency.</p>
+        </div>
+      </div>
+
+      <!-- Web Application -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" 
+             alt="Web Application Development" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Web Application</h3>
+          <p class="text-gray-600">We design and develop fast, secure, and scalable web apps tailored to your business needs.</p>
+        </div>
+      </div>
+
+      <!-- Mobile Application -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg" 
+             alt="Mobile App Development" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Mobile Application</h3>
+          <p class="text-gray-600">Native and cross-platform mobile apps that offer seamless user experiences and rich functionality.</p>
+        </div>
+      </div>
+
+      <!-- Digital Marketing -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?semt=ais_country_boost&w=740" 
+             alt="Digital Marketing" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Digital Marketing</h3>
+          <p class="text-gray-600">Boost your online presence with our strategic SEO, PPC, social media, and content marketing services.</p>
+        </div>
+      </div>
+
+      <!-- More Coming Soon -->
+      <div class="bg-white rounded-2xl shadow-lg flex flex-col justify-center items-center text-center p-10">
+        <div class="text-5xl text-blue-600 mb-4">🚧</div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">More Services</h3>
+        <p class="text-gray-600">We're constantly expanding. New IT solutions are currently <strong>under construction</strong>. Stay tuned!</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About section -->
+<!-- About Section -->
+<section id="about" class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-gray-900">About Us</h2>
+      <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+        At InnoSphear, we strive to deliver cutting-edge digital solutions that empower businesses to thrive in the digital age. Our expertise spans across ERP, CRM, web and mobile app development, and digital marketing.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <!-- Founder Image -->
+      <div>
+        <img src="https://media.istockphoto.com/id/1139490507/photo/portrait-of-confident-young-businessman.jpg?s=612x612&w=0&k=20&c=Aj3d1Z2xHOvXlP0l9T5WgkVKcguK4OmxGTVLt6r3pgE=" 
+             alt="Ujjwal Karmakar - Founder and CEO" 
+             class="rounded-2xl shadow-lg w-full object-cover h-80">
+      </div>
+
+      <!-- Founder Bio -->
+      <div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Ujjwal Karmakar</h3>
+        <p class="text-gray-700 text-lg">
+          Ujjwal Karmakar, the visionary Founder and CEO of InnoSphear, brings a passion for innovation and excellence in the field of IT solutions. With years of experience in software engineering and digital transformation, Ujjwal leads a team dedicated to delivering results-driven, customized solutions that empower clients to stay ahead in their industry.
+        </p>
+        <p class="mt-4 text-gray-600">
+          His leadership is rooted in a deep commitment to quality, collaboration, and technological growth — the driving forces behind InnoSphear’s mission to be your trusted digital partner.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact section -->
+<!-- Contact Section -->
+<section id="contact" class="bg-gray-100 py-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">Get in Touch</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/xzbnkzpv" method="POST" class="bg-white p-8 rounded-2xl shadow-lg space-y-6">
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2">Name</label>
+          <input type="text" name="name" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2">Email</label>
+          <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2">Message</label>
+          <textarea name="message" rows="5" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition duration-300">
+          Send Message
+        </button>
+      </form>
+
+      <!-- Map and Info -->
+      <div class="space-y-6">
+        <div class="rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.821517434894!2d87.93852867439597!3d26.102554877127036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef175f1b8ec93d%3A0x5e7b64ae38044438!2sKishanganj%2C%20Bihar%20855107!5e0!3m2!1sen!2sin!4v1681498292229!5m2!1sen!2sin"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800">Visit Us</h3>
+          <p class="text-gray-600">Kishanganj, Bihar - 855107, India</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800">Email</h3>
+          <p class="text-gray-600">Under Mantenence</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800">Phone</h3>
+          <p class="text-gray-600">+91 6203818011</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<!-- Footer -->
+<footer class="bg-white border-t border-gray-200 mt-16">
+  <div class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+
+    <!-- Company Info -->
+    <div>
+      <h3 class="text-xl font-bold text-blue-600 mb-2">InnoSphear</h3>
+      <p class="text-gray-600">
+        Empowering businesses with smart IT solutions — from CRM, ERP to custom apps and marketing.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h4 class="text-lg font-semibold text-gray-800 mb-3">Quick Links</h4>
+      <ul class="space-y-2 text-gray-600">
+        <li><a href="#" class="hover:text-blue-600 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600 transition">About</a></li>
+        <li><a href="#services" class="hover:text-blue-600 transition">Services</a></li>
+        <li><a href="#contact" class="hover:text-blue-600 transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Development Note + Social -->
+    <div>
+      <h4 class="text-lg font-semibold text-gray-800 mb-3">Notice</h4>
+      <p class="text-gray-600 mb-4">🚧 This website is currently under development. Expect exciting updates soon!</p>
+      <div class="flex justify-center md:justify-start space-x-4">
+        <a href="#" class="text-gray-600 hover:text-blue-600 transition" aria-label="LinkedIn">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1 0-5zm.02 4.8H1v12h4v-12zm7.6-.8c-1.9 0-3.1 1-3.6 2.2V8.5H7v12h4v-6c0-1.6 0-3 2.2-3s1.8 1.8 1.8 3v6h4v-6.5c0-3.1-1.7-4.5-4-4.5z"/>
+          </svg>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-blue-600 transition" aria-label="GitHub">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2a10 10 0 0 0-3.16 19.48c.5.09.68-.22.68-.48v-1.66c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.48-1.11-1.48-.91-.63.07-.62.07-.62 1 .07 1.53 1.03 1.53 1.03.9 1.54 2.36 1.1 2.94.84.09-.66.35-1.1.63-1.35-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.99 1.03-2.69-.1-.26-.45-1.28.1-2.67 0 0 .84-.27 2.75 1.02A9.52 9.52 0 0 1 12 6.8a9.5 9.5 0 0 1 2.5.34c1.9-1.29 2.74-1.02 2.74-1.02.56 1.39.21 2.41.11 2.67.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.92.36.31.68.93.68 1.87v2.77c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/>
+          </svg>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-blue-600 transition" aria-label="Twitter">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c13 8 27-4 27-16a9.77 9.77 0 0 0-.08-1.79A7.72 7.72 0 0 0 23 3z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="border-t border-gray-200 mt-8 pt-6 text-center text-sm text-gray-500">
+    © 2024 InnoSphear. All rights reserved.
+  </div>
+</footer>
+
+
+
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
